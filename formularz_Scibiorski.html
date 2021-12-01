@@ -7,8 +7,9 @@
 </head>
 <body>
 <form  enctype="text/plain" action="eagle2005gd@gmail.com?subject=Mateusz Scibiorski"
-method="Post>
-<input type="text" name="Nazwa" size="15" maxlength="10">
+method="Post">
+<table border=0>
+
 <p> Imie </p>
 <input type="text" name="Nazwa" size="15" maxlength="10">
 <p>Nazwisko </p>
@@ -54,24 +55,37 @@ Ktore z podanych sa dla ciebie najwaszniejsze w szachach? <br>
 <input type="checkbox" name="najwaszniejsze" value="kreatywnosc" checked>kreatywnosc
 <input type="checkbox" name="najwaszniejsze" value="szybkie">szybkie myslenie
 <br>
-Pseudonim uzywany w szachach
+<tr>
+<td>Pseudonim uzywany w szachach
 <input type="text" name="pseudonim" size="15"> </input>
 <br>
+</td>
+<td>
 Napisz o doswiadczeniach z szachow
 <input type="text name="doswiadczenia" size="15"> </input>
 <br>
+</td>
+<td>
 Napisz o swojej stategi w szachach
 <input type="text" name="stategia" size="15"> </input>
 <br>
+</td>
+<td>
 Dlaczego chcesz doloczyc
 <input type="text" name="dlaczego" size="50" rows="4"value="Tu napisz dlaczego"> </input>
 <br>
+</td>
+<td>
+</tr>
+<tr>
 Ile parti grasz w tygodniu <br>
 <select name="partie">
 <option> 1-10</option>
 <option> 25-50</option>
 <option> 50+ </option>
 <select>
+</td>
+<td>
 <br>
 Jakiesz Masz elo <br>
 <select name="elo" value="5" >
@@ -81,6 +95,8 @@ Jakiesz Masz elo <br>
 <option value="4"> 1500-2000
 <option value="5"> 2000+
 <select>
+</td>
+<td>
 <br>
 Jak bardzo jestes zaawansowany w szachy <br>
 <select name="zaawansowany" value="5" >
@@ -89,11 +105,14 @@ Jak bardzo jestes zaawansowany w szachy <br>
 <option value=3> bardzo dobrze
 <option value="4"> genialnie
 <select>
+</td>
+</tr>
 <br>
+</table>
 <button action="reset" name="reset">reset </button>
 <button OnClick="alert('Czemu mnie kliknoles?????????')">Nie klikaj mnie</button>
 <button OnClick="alert('Czesc')">Mozesz mnie klikac</button>
-<INPUT TYPE="submit" VALUE="Wyślij"> 
+<INPUT TYPE="submit" VALUE="Wyślij">
 </form>
 <h2><a href="index.html">powrót na strone główną</a></h2>
  </body>
